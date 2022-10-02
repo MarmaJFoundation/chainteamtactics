@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 824718de2b8dcb042956ccef3a2dff41, type: 3}
+  m_Name: Executioner
+  m_EditorClassIdentifier: 
+  unitType: 5
+  chargeEffect: 28
+  exploEffect: 7
+  projectileEffect: 0
+  nodeEffect: 29
+  abrevName: Exec.
+  pronoun: he
+  description:
+  - executioners attack every 2 seconds,
+  - from a 1 sqm range,
+  - with an area of 1 sqm.
+  - they can be healed.
+  - they do not run on low health.
+  defaultImage: {fileID: -6303735771461122216, guid: 29c6a5b3a0b86414eaeee0b5eebb4d68, type: 3}
+  effectOffset: 0
+  unitPrefab: {fileID: 4671253678229484623, guid: b51e0976516c8e141a7170fa1f7b8f80, type: 3}
+  supports: 0
+  dontRun: 1
+  reviver: 0
+  summon: 0
+  attackRange: 1
+  maxHealth: 250
+  damage: 250
+  speed: 40
+  areaOfEffect: 1
+  unitTier: 2
+  attackSpeed: 2
+  brainSpeed: 0.1

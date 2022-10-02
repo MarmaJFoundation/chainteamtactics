@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 824718de2b8dcb042956ccef3a2dff41, type: 3}
+  m_Name: Bard
+  m_EditorClassIdentifier: 
+  unitType: 10
+  chargeEffect: 19
+  exploEffect: 0
+  projectileEffect: 0
+  nodeEffect: 20
+  abrevName: Bard
+  pronoun: he
+  description:
+  - bards do not attack.
+  - every 2 seconds, bards
+  - will power up an ally unit.
+  - bards cannot be healed.
+  - they run on low health.
+  defaultImage: {fileID: 2616618834968588395, guid: 29c6a5b3a0b86414eaeee0b5eebb4d68, type: 3}
+  effectOffset: 0
+  unitPrefab: {fileID: 1586662672338039743, guid: fd5658a1875257f489572a3bf07e6af5, type: 3}
+  supports: 1
+  dontRun: 0
+  reviver: 0
+  summon: 0
+  selfCast: 0
+  attackRange: 6
+  maxHealth: 180
+  damage: 200
+  speed: 60
+  areaOfEffect: 1
+  unitTier: 3
+  attackSpeed: 2
+  brainSpeed: 0.1

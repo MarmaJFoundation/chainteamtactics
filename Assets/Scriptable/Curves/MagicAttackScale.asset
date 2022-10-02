@@ -1,0 +1,66 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9301dbef1459e048abd09d2407945f6, type: 3}
+  m_Name: MagicAttackScale
+  m_EditorClassIdentifier: 
+  curveType: 8
+  animationCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: -6.1486955
+      outSlope: -6.1486955
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.2771139
+    - serializedVersion: 3
+      time: 0.11129084
+      value: -0.51451415
+      inSlope: -0.5479409
+      outSlope: -0.5479409
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.3974827
+    - serializedVersion: 3
+      time: 0.2948844
+      value: -0.50102127
+      inSlope: 1.1268139
+      outSlope: 1.1268139
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.34427112
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.4709911
+      value: 0.8779601
+      inSlope: 0.63835454
+      outSlope: 0.63835454
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.5309831
+      outWeight: 0.2804683
+    - serializedVersion: 3
+      time: 1.002594
+      value: 0.0000058710575
+      inSlope: -6.0292296
+      outSlope: -6.0292296
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.068604395
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4

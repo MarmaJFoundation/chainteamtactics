@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 824718de2b8dcb042956ccef3a2dff41, type: 3}
+  m_Name: Chemist
+  m_EditorClassIdentifier: 
+  unitType: 4
+  chargeEffect: 0
+  exploEffect: 0
+  projectileEffect: 18
+  nodeEffect: 17
+  abrevName: Chemist
+  pronoun: she
+  description:
+  - chemists do not attack.
+  - every 2 seconds, the chemist
+  - will heal a nearby ally.
+  - chesmits cannot be healed.
+  - they run on low health.
+  defaultImage: {fileID: -6462282561113158017, guid: 29c6a5b3a0b86414eaeee0b5eebb4d68, type: 3}
+  effectOffset: 1
+  unitPrefab: {fileID: 3984433820946125255, guid: 823bd1f38b3b0844585391be23949da8, type: 3}
+  supports: 1
+  dontRun: 0
+  reviver: 0
+  summon: 0
+  attackRange: 4
+  maxHealth: 200
+  damage: 100
+  speed: 50
+  areaOfEffect: 0
+  unitTier: 1
+  attackSpeed: 2
+  brainSpeed: 0.1
