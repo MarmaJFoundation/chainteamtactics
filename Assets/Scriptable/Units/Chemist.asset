@@ -23,7 +23,7 @@ MonoBehaviour:
   - chemists do not attack.
   - every 2 seconds, the chemist
   - will heal a nearby ally.
-  - chesmits cannot be healed.
+  - chemists cannot be healed.
   - they run on low health.
   defaultImage: {fileID: -6462282561113158017, guid: 29c6a5b3a0b86414eaeee0b5eebb4d68, type: 3}
   effectOffset: 1
