@@ -363,6 +363,7 @@ public class Database : MonoBehaviour
     private void LoadDatabase()
     {
         databaseStruct = XMLGenerator.DeserializeObject(PlayerPrefs.GetString(databaseName), typeof(DatabaseStruct)) as DatabaseStruct;
+        //Debug.Log(PlayerPrefs.GetString(databaseName));
     }
     public static void SaveDatabase()
     {

@@ -182,7 +182,9 @@ public class MainMenuController : MonoBehaviour
     {
         nearHelper.Logout(true);
         Database.SaveDatabase();
-        SceneManager.LoadScene(0);
+
+        NearHelper.WSLogout();
+        //SceneManager.LoadScene(0);
     }
     public void OnAuthorizedClick()
     {

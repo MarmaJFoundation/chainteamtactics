@@ -42,6 +42,8 @@ public class LoginController : MonoBehaviour
     //#protocol
     public void OnLoginClick()
     {
+#if UNITY_EDITOR
+        /*
         if (customInput.typeString == "")
         {
             BaseUtils.ShowWarningMessage("Error!", new string[2] { "Address cannot be empty.", "Enter your Near Wallet adress." });
@@ -57,6 +59,10 @@ public class LoginController : MonoBehaviour
         {
             playerAccountName = playerAccountName.Remove(playerAccountName.IndexOf('.'), 5);
         }
+        */
+
+        playerAccountName = "2dcity-villager1";
+
         customInput.enabled = false;
         if (BaseUtils.offlineMode)
         {
@@ -67,6 +73,9 @@ public class LoginController : MonoBehaviour
             nearhelper.Login(playerAccountName);
         }
         StartCoroutine(WaitAndShowAuthButton());
+#else
+        nearhelper.WalletSelectorLogin();
+#endif
     }
     private IEnumerator WaitAndShowAuthButton()
     {
